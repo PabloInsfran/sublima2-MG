@@ -20,15 +20,16 @@ body{
     .navbar-black{
         background-color: $primary-color;
          transition: 2s;
+         margin-bottom: 200px;
     }
 
 
 .text-inicio-main{
+    margin-top: 200px;
     background-color: rgba(127, 195, 197, 0.541);
     text-align:center;
-    font-size: 1.5rem;
-    height: max-content;
-    padding: 3rem;
+    font-size: $font-size;
+    border: 2px solid black;
     height: max-content;
     font-family: $font-family;
 }
@@ -44,6 +45,7 @@ body{
 .redes{
     text-align: center;
     background-color: black;
+    
 }
 .copyright{
     text-align: center;
@@ -53,3 +55,24 @@ body{
     background-color: rgb(0, 0, 0);
     font-size: 10px;
     }
+    .redes a{
+        color: white;
+        font-size: 20px;
+    }
+.img-border{
+    border: solid 1px black;
+    height: max-content;
+    width: max-content;
+}
+header{
+    grid-area: header;
+}
+.left{
+    grid-area: left;
+}
+.right{
+    grid-area: right;
+}
+footer{
+    grid-area: footer;
+}
