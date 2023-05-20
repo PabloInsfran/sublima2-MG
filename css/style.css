@@ -16,14 +16,15 @@ body header a {
 .navbar-black {
   background-color: rgba(180, 5, 113, 0.705);
   transition: 2s;
+  margin-bottom: 200px;
 }
 
 .text-inicio-main {
+  margin-top: 200px;
   background-color: rgba(127, 195, 197, 0.541);
   text-align: center;
-  font-size: 1.5rem;
-  height: max-content;
-  padding: 3rem;
+  font-size: 1.2rem;
+  border: 2px solid black;
   height: max-content;
   font-family: "Barrio", cursive;
 }
@@ -45,6 +46,88 @@ body header a {
   text-align: center;
   background-color: rgb(0, 0, 0);
   font-size: 10px;
+}
+
+.redes a {
+  color: white;
+  font-size: 20px;
+}
+
+.img-border {
+  border: solid 1px black;
+  height: max-content;
+  width: max-content;
+}
+
+header {
+  grid-area: header;
+}
+
+.left {
+  grid-area: left;
+}
+
+.right {
+  grid-area: right;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.text-nosotros-main {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  height: max-content;
+  padding: 3rem;
+  height: max-content;
+  font-family: "Barrio", cursive;
+  border: 2px solid rgb(230, 0, 0);
+}
+
+.text-productos-main {
+  background-color: rgba(243, 0, 0, 0.705);
+  text-align: center;
+  font-size: 1.2rem;
+  height: max-content;
+  padding: 3rem;
+  height: max-content;
+  font-family: "Barrio", cursive;
+  border: 2px solid black;
+}
+
+.text-envios-main {
+  background-color: rgb(87, 0, 0);
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  height: max-content;
+  padding: 3rem;
+  height: max-content;
+  font-family: "Barrio", cursive;
+  border: 2px solid black;
+}
+
+.text-contacto-main {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: rgb(212, 209, 0);
+  font-size: 1.2rem;
+  height: max-content;
+  border: 2px solid rgb(212, 209, 0);
+  height: max-content;
+  font-family: "Barrio", cursive;
+}
+
+@media (min-width: 768px) {
+  body header {
+    height: 300px;
+  }
+  body header nav {
+    height: 100px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
