@@ -23,7 +23,7 @@ body header a {
   margin-top: 200px;
   background-color: rgba(127, 195, 197, 0.541);
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   border: 2px solid black;
   height: max-content;
   font-family: "Barrio", cursive;
@@ -59,27 +59,11 @@ body header a {
   width: max-content;
 }
 
-header {
-  grid-area: header;
-}
-
-.left {
-  grid-area: left;
-}
-
-.right {
-  grid-area: right;
-}
-
-footer {
-  grid-area: footer;
-}
-
 .text-nosotros-main {
   background-color: rgb(0, 0, 0);
   text-align: center;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   height: max-content;
   padding: 3rem;
   height: max-content;
@@ -90,7 +74,7 @@ footer {
 .text-productos-main {
   background-color: rgba(243, 0, 0, 0.705);
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   height: max-content;
   padding: 3rem;
   height: max-content;
@@ -102,7 +86,7 @@ footer {
   background-color: rgb(87, 0, 0);
   text-align: center;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   height: max-content;
   padding: 3rem;
   height: max-content;
@@ -114,7 +98,7 @@ footer {
   background-color: rgb(0, 0, 0);
   text-align: center;
   color: rgb(212, 209, 0);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   height: max-content;
   border: 2px solid rgb(212, 209, 0);
   height: max-content;
@@ -125,9 +109,7 @@ footer {
   body header {
     height: 300px;
   }
-  body header nav {
-    height: 100px;
-  }
 }
+
 
 /*# sourceMappingURL=style.css.map */
